@@ -23,4 +23,7 @@ because of issue in block scope and functional scope
 */
 console.table([accountId,accountEmail,accountPassword,accountCity,accountState]);
 
+let a;
+a=4+5;
+console.log(4+5);
 

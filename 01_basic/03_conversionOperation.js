@@ -26,5 +26,11 @@
 
 let value = 3;
 let convertString = String(value);
-console.log(convertString);
-console.log(typeof convertString);
+// console.log(convertString);
+// console.log(typeof convertString);
+
+console.log(1+"2"); //12
+console.log("1"+"2"); //12
+console.log("1"+2); //12
+console.log(1+1+"2"); //22
+console.log("1"+2+2); //122

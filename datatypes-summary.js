@@ -2,8 +2,8 @@
 
 // 7 types :  String, Number , Boolean , null , undefined , Symbol, BigInt
 
-// string is a call by value that means if we do any changes that is performe on copy not on a actually value
-// null means total blank .
+// string -> is a call by value that means if we do any changes that is performe on copy not on a actually value
+// null -> means total blank .
 //
 
 const score = 100;
@@ -44,7 +44,7 @@ console.log(typeof heros); // object
 
 console.log(typeof anotherId);  // symbol  - symbol ka datatype symbol he hota hai
 
-
+console.log(typeof undefined); // undefined - undefined ka datatype is a undefined .
 
 // Reference (non primitive)
 

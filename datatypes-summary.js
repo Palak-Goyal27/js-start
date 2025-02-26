@@ -4,7 +4,8 @@
 
 // string -> is a call by value that means if we do any changes that is performe on copy not on a actually value
 // null -> means total blank .
-//
+// null ka datatype bhi object he hota hai
+
 
 const score = 100;
 const scoreValue = 100.3;

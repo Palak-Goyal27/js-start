@@ -16,37 +16,39 @@ let userEmail;
 const id = Symbol('123');
 const anotherId = Symbol('123');
 
-console.log(id === anotherId); // false
+//console.log(id === anotherId); // false
 
 const bigNumber = 123456789n;
 
+// console.log(typeof bigNumber);   // bigint
+ 
+// console.log(typeof outsideTemp); // object 
+
+// console.log(typeof scoreValue); // number 
+
+// console.log(typeof anotherId);  // symbol  - symbol ka datatype symbol he hota hai
+
+// console.log(typeof undefined); // undefined - undefined ka datatype is a undefined .
+
+// Reference (non primitive)
+
+//Array, Objects, Functions
+
 const heros = ["palak","nidhi","prachi"];
+
+console.log(typeof heros); // object - array datatype is also object.
+
 let myObj =
 {
     name: "Hitesh",
     age: 22,
 }
 
+console.log(typeof myObj); // object datatype is object.
+
 const myFunction = function()
 {
     console.log("hello world");
 }
   
-console.log(typeof bigNumber);   // bigint
- 
-console.log(typeof outsideTemp); // object 
-
-console.log(typeof scoreValue); // number 
-
 console.log(typeof myFunction); // function - function ka datatype function he hota hai
-
-console.log(typeof heros); // object 
-
-console.log(typeof anotherId);  // symbol  - symbol ka datatype symbol he hota hai
-
-console.log(typeof undefined); // undefined - undefined ka datatype is a undefined .
-
-// Reference (non primitive)
-
-//Array, Objects, Functions
-

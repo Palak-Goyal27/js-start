@@ -37,7 +37,7 @@ const bigNumber = 123456789n;
 
 const heros = ["palak","nidhi","prachi"];
 
-console.log(typeof heros); // object - array datatype is also object.
+//console.log(typeof heros); // object - array datatype is also object.
 
 let myObj =
 {
@@ -45,11 +45,40 @@ let myObj =
     age: 22,
 }
 
-console.log(typeof myObj); // object datatype is object.
+//console.log(typeof myObj); // object datatype is object.
 
 const myFunction = function()
 {
     console.log("hello world");
 }
   
-console.log(typeof myFunction); // function - function ka datatype function he hota hai
+//console.log(typeof myFunction); // function - function ka datatype function he hota hai
+
+
+
+
+
+
+//******************************** */
+
+// Stack(primitive)- copy value , heap ( non- primitive)- original reference of value
+
+let palak = "goyal"
+
+let anothername = palak
+
+anothername = "shelly"
+
+console.log(palak);        // these value is store in stack
+console.log(anothername);
+
+let userOne ={            // these value is store in heap 
+    name:"palak",
+    age:23
+}
+
+let userTwo = userOne;
+userTwo.name = "shelly"
+
+console.log(userOne);         // because of heap .actually value is change
+console.log(userTwo);

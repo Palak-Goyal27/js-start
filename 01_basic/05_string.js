@@ -8,3 +8,4 @@ console.log(name+age+"mewar"); // this is old version
 
 console.log(`hello my name is ${name} and my age is ${age}`);
 
+const Fname = new String("Palak Goyal");
